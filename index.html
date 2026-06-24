@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🫂Happy Birthday Mama 🥰❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+const password = prompt("Enter the birthday password ❤️");
+
+if(password !== "Happy24"){
+    document.body.innerHTML =
+    "<h1>Access Denied ❤️</h1>";
+}
+</script>
+
+<audio id="music" loop>
+    <source src="music.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<section class="hero">
+
+    <h1>🎂 Happy Birthday My Love🫂💕👑🥰</h1>
+
+    <p class="subtitle">
+        A little corner of the internet made just for you...
+    </p>
+
+    <div class="countdown-box">
+
+        <h2>⏳ Countdown To our Special Day (YOUR FISRT DAY ON EARTH)</h2>
+
+        <div id="countdown"></div>
+
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">
+        🎵 Play Music
+    </button>
+
+    <a href="memories.html" class="next-btn">
+        Open Your Surprise ➜
+    </a>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
